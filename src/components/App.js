@@ -16,8 +16,11 @@ class App extends React.Component {
         q: term
       }
     })
-    console.log(response)
-    this.setState({videos: response.data.items})
+    // console.log(response)
+    this.setState({
+      videos: response.data.items,
+      selectedVideo: response.data.items[0]
+    })
   }
   onVideoSelect = video =>{
     console.log('from the app', video)

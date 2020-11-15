@@ -18,6 +18,7 @@ export const VideoItemCard = styled.div`
 
   .videoItemContainer{
     display: flex;
+    
   }
   img{
     max-width: 140px;

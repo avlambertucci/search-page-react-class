@@ -21,7 +21,7 @@ class SearchBar extends React.Component {
       <>
         <Container>
           <form onSubmit={this.handleFormSubmit}>
-            <FaYoutube color='#41d348' size='30px' />
+            <FaYoutube color='#41d348' size='40px' />
             <input
               placeholder="Search..."
               type="text" 
